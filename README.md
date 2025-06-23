@@ -1,10 +1,3 @@
-Berikut adalah contoh file `README.md` yang rapi dan profesional untuk proyek **TRAVELGIS** berbasis Laravel + Leaflet, bisa langsung kamu pakai di GitHub:
-
----
-
-### 📄 `README.md`
-
-```markdown
 # 🗺️ TRAVELGIS
 
 **TRAVELGIS** adalah aplikasi WebGIS berbasis Laravel dan Leaflet yang menampilkan informasi transportasi umum di Kota Yogyakarta, termasuk peta jalur dan halte Trans Jogja.
