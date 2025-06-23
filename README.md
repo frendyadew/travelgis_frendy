@@ -29,49 +29,43 @@
 ## 📂 Struktur Folder Penting
 
 ```
-
 /public/data/
-halte.geojson     → Data titik halte
-jalur.geojson     → Data garis trayek bus
+  ├─ halte.geojson     → Data titik halte
+  └─ jalur.geojson     → Data garis trayek bus
 
 /resources/views/
-map.blade.php     → Halaman utama peta
+  └─ map.blade.php     → Halaman utama peta
 
-/routes/web.php       → Routing aplikasi
-
-````
+/routes/web.php        → Routing aplikasi
+```
 
 ---
 
 ## 🚀 Cara Menjalankan Secara Lokal
 
-1. Clone repository ini:
+1. **Clone repository ini:**
    ```bash
    git clone https://github.com/username/travelgis_nama_NIU.git
    cd travelgis_nama_NIU
-````
+   ```
 
-2. Install dependensi:
-
+2. **Install dependensi:**
    ```bash
    composer install
    ```
 
-3. Salin file `.env` dan generate key:
-
+3. **Salin file `.env` dan generate key:**
    ```bash
    cp .env.example .env
    php artisan key:generate
    ```
 
-4. Jalankan server lokal:
-
+4. **Jalankan server lokal:**
    ```bash
    php artisan serve
    ```
 
-5. Buka di browser:
-
+5. **Buka di browser:**
    ```
    http://localhost:8000
    ```
@@ -80,17 +74,17 @@ map.blade.php     → Halaman utama peta
 
 ## 📌 Catatan
 
-* Aplikasi ini tidak menggunakan database untuk demo dasar (opsional).
-* Data GeoJSON diambil dari Overpass Turbo dan disimpan lokal.
-* Kompatibel untuk demonstrasi offline di kelas/praktikum.
+- Aplikasi ini tidak menggunakan database untuk demo dasar (opsional).
+- Data GeoJSON diambil dari Overpass Turbo dan disimpan lokal.
+- Kompatibel untuk demonstrasi offline di kelas/praktikum.
 
 ---
 
 ## 🧑‍💻 Pengembang
 
-* Nama: Frendy Ade Wicaksono
-* NIM: \[Isi sesuai NIU]
-* Prodi: D4 Sistem Informasi Geografis, UGM
+- **Nama:** Frendy Ade Wicaksono
+- **NIM:** 23/523180/SV/23868
+- **Prodi:** D4 Sistem Informasi Geografis, UGM
 
 ---
 
